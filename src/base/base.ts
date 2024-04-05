@@ -818,12 +818,26 @@ h6,
     max-width: 82.5rem }
 }
 
+.input, .textarea {
+  border-radius: 4px;
+}
+
 .textarea {
   width: 100%;
   height: 150px;
   padding: 12px 20px;
   resize: none;
 }
+
+.input {
+  max-width: 190px;
+  padding: .15rem .5rem;
+  min-height: 40px;
+  outline: none;
+  line-height: 1.15;
+}
+
+
 
 `
 
